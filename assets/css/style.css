@@ -1,0 +1,21 @@
+/*Les Images*/
+
+.image {
+  text-align: center;
+  margin-top: 7em;
+}
+
+/*Les Boutons*/
+
+.boutons {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.boutons button {
+  margin-top: 1em;
+}
+
+.boutons a {
+  margin-top: 1em;
+}

@@ -21,7 +21,7 @@ require 'layout/top.php';
 			<label>Nom</label>
 			<input type="text" name="nom" class="form-control" value="<?= $nom; ?>" placeholder="Votre recherche"/>
 		</div>
-		<button type="submit" class="btn btn-default" >Rechercher</button>
+		<button type="submit" class="btn btn-default">Rechercher</button>
 	</form>
 </div>
 
