@@ -153,7 +153,7 @@ class Player
 		if (empty($dci)) {
 			$msg = 'Le numéro DCI est obligatoire';
 			return false;
-		} elseif (strlen($dci) == 10) {
+		} elseif (strlen($dci) > 10) {
 			$msg = 'Le numéro DCI est composé de 10 chiffres';
 			return false;
 		}
@@ -204,5 +204,12 @@ EOS;
 		$cnx = Cnx::getInstance();
 
 		$cnx->exec('DELETE FROM player WHERE id=' . $this->id);
+	}
+
+	public function DeleteAll()
+	{
+		$cnx = Cnx::getInstance();
+
+		$cnx->exec('DELETE FROM player');
 	}
 }

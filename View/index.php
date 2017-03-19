@@ -8,7 +8,7 @@ require 'layout/top.php';
 </div>
 
 <div class="boutons">
-  <button class="btn btn-danger center-block">Nouveau Draft</button>
+  <a class="btn btn-danger" href="player.php" role="button">Nouveau Draft</a>
   <a class="btn btn-success" href="player.php" role="button">Draft en cours</a>
 </div>
 
