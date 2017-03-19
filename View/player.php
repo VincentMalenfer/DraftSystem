@@ -2,6 +2,9 @@
 // view/player.php
 require 'layout/top.php';
 ?>
+
+<div class="cRetour"></div>
+
 <h2>Joueurs</h2>
 
 <?php
@@ -12,7 +15,11 @@ require 'layout/top.php';
 ?>
 
 <p>
-	<a href="player-edit.php">Ajouter un joueur</a>
+	<?php if (count($player) >= 8): ?>
+		<a class="btn btn-danger">Complet !</a>
+	<?php else : ?>
+		<a class="btn btn-primary" href="player-edit.php">Ajouter un joueur</a>
+	<?php endif ?>	
 </p>
 
 <div class="well">

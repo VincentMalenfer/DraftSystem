@@ -9,5 +9,7 @@
  2017
 			</p>
 		</footer>
+		<!-- Javascript File -->
+    <script src="assets/js/main.js"></script>
 	</body>
 </html>

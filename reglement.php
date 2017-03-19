@@ -2,6 +2,7 @@
 // reglement.php
 require 'View/layout/top.php';
 ?>
+
 <h2>Réglement</h2>
 
 <article>
@@ -19,8 +20,6 @@ require 'View/layout/top.php';
   <img class="img-responsive col-md-4" src="assets/img/plan2.jpg" alt="plan de table 2">
   <img class="img-responsive col-md-4" src="assets/img/plan3.jpg" alt="plan de table 3">
 </div>
-
-<br>
 
 <article>
   <p>
