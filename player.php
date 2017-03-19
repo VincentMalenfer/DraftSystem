@@ -9,4 +9,4 @@ $nom = (isset($_GET['nom'])) ? $_GET['nom'] : null;
 
 $players = Player::fetchAll($nom);
 
-require 'view/player.php';
+require 'View/player.php';

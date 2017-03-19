@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Dim 19 Mars 2017 à 12:52
+-- Généré le :  Dim 19 Mars 2017 à 20:48
 -- Version du serveur :  10.1.19-MariaDB
 -- Version de PHP :  5.6.28
 
@@ -38,14 +38,14 @@ CREATE TABLE `player` (
 --
 
 INSERT INTO `player` (`id`, `prenom`, `nom`, `dci`) VALUES
-(1, 'Vincent', 'Malenfer', '4030970863'),
-(2, 'Yann', 'Le Merrer', '0154736952'),
-(7, 'Héramban', 'Minatchy', '6354712349'),
-(8, 'Sandra', 'Dupond', '4050195037'),
-(9, 'Cédric', 'Martin', '5075186405'),
-(10, 'Mélanie', 'Martin', '7415015469'),
-(11, 'Thomas', 'Mion', '9015871300'),
-(12, 'Pierre', 'Vanneste', '5400877511');
+(19, 'Héramban', 'Minatchy', '5400877511'),
+(20, 'Pierre', 'Vanneste', '6354712349'),
+(21, 'Mélanie', 'Dupond', '0154736952'),
+(22, 'Thomas', 'Martin', '5075186405'),
+(23, 'Vincent', 'Malenfer', '4050195037'),
+(24, 'Yann', 'Le Merrer', '0230608547'),
+(25, 'Sandra', 'Flantier', '9015871300'),
+(26, 'Sylvain', 'Malenfer', '4013628015');
 
 --
 -- Index pour les tables exportées
@@ -65,7 +65,7 @@ ALTER TABLE `player`
 -- AUTO_INCREMENT pour la table `player`
 --
 ALTER TABLE `player`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
