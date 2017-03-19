@@ -5,6 +5,16 @@
   margin-top: 7em;
 }
 
+img {
+  margin: 0 auto;
+}
+
+.plan img {
+  display: inline-block;
+  padding: 0;
+  padding-top: 0.3em;
+}
+
 /*Les Boutons*/
 
 .boutons {
@@ -18,4 +28,28 @@
 
 .boutons a {
   margin-top: 1em;
+}
+
+/*Le Footer*/
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
 }

@@ -4,7 +4,7 @@ require 'layout/top.php';
 ?>
 
 <div class="image">
-  <img class="img-responsive" src="http://nerdreactor.com/wp-content/uploads/2016/09/Magic-The-Gathering-logo-800x279.png" alt="logo magic">
+  <img class="img-responsive" src="assets/img/logo.png" alt="logo magic">
 </div>
 
 <div class="boutons">

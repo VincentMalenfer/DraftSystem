@@ -27,7 +27,6 @@ require 'layout/top.php';
 
 <table class="table">
 	<tr>
-		<th>Id</th>
 		<th>Prénom</th>
 		<th>Nom</th>
 		<th>DCI</th>
@@ -36,7 +35,6 @@ require 'layout/top.php';
 		foreach ($players as $player) :
 	?>
 	<tr>
-		<td><?= $player->getId(); ?></td>
 		<td><?= $player->getPrenom(); ?></td>
 		<td><?= $player->getNom(); ?></td>
 		<td><?= $player->getDci(); ?></td>
