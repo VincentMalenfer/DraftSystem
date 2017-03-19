@@ -14,14 +14,6 @@ require 'layout/top.php';
 	}
 ?>
 
-<p>
-	<?php if (count($player) >= 8): ?>
-		<a class="btn btn-danger">Complet !</a>
-	<?php else : ?>
-		<a class="btn btn-primary" href="player-edit.php">Ajouter un joueur</a>
-	<?php endif ?>	
-</p>
-
 <div class="well">
 	<form>
 		<div class="form-group">
@@ -54,6 +46,15 @@ require 'layout/top.php';
 	endforeach;
 	?>
 </table>
+
+<p>
+	<?php if (count($players) >= 8): ?>
+		<a class="btn btn-danger">Complet !</a>
+	<?php else : ?>
+		<a class="btn btn-primary" href="player-edit.php">Ajouter un joueur</a>
+	<?php endif ?>
+</p>
+
 <?php
 require 'layout/bottom.php';
 ?>
