@@ -1,6 +1,10 @@
 <?php
 // table.php
+session_start();
+require_once 'App/autoload.php';
 require 'View/layout/top.php';
+
+use Model\Player;
 ?>
 
 <section>
@@ -8,15 +12,15 @@ require 'View/layout/top.php';
 
 <?php
 $player = [];
-shuffle($player);
-foreach ($players as $player) :
+  shuffle($player);
+  foreach ($player as $players) :
 ?>
-    <ol>
-      <li><?= $player->getPrenom(), $player->getNom(); ?></li>
-    </ol>
-  <?php
-endforeach;
-  ?>
+  <ol>
+    <li><?= $player->getPrenom(), $player->getNom(); ?></li>
+  </ol>
+<?php
+  endforeach;
+?>
 
 </section>
 
