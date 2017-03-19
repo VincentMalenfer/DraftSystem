@@ -154,7 +154,7 @@ class Player
 			$msg = 'Le numéro DCI est obligatoire';
 			return false;
 		} elseif (strlen($dci) > 10) {
-			$msg = 'Le numéro DCI est composé de 10 chiffres';
+			$msg = 'Le numéro DCI ne peut pas faire plus de 10 chiffres';
 			return false;
 		}
 		return true;

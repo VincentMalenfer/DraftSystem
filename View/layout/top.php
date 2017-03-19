@@ -19,13 +19,13 @@
 				<a class="navbar-brand" href="/DraftSystem/">DraftSystem</a>
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="player.php">Joueurs</a>
+						<a href="player.php">Les joueurs</a>
 					</li>
 					<li>
-						<a href="table.php">Table</a>
+						<a href="table.php">Générer le plan de table</a>
 					</li>
 					<li>
-						<a href="reglement.php">Réglement</a>
+						<a href="reglement.php">Le réglement</a>
 					</li>
 				</ul>
 			</div>

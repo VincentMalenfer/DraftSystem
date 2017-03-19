@@ -2,32 +2,11 @@
 // table.php
 session_start();
 require_once 'App/autoload.php';
-require 'View/layout/top.php';
 
 use Model\Player;
-?>
 
-<section>
-  <p>Le plan de table généré est le suivant : </p>
+$nom = (isset($_GET['nom'])) ? $_GET['nom'] : null;
 
-<?php
-$player = [];
-  shuffle($player);
-  foreach ($player as $players) :
-?>
-  <ol>
-    <li><?= $player->getPrenom(), $player->getNom(); ?></li>
-  </ol>
-<?php
-  endforeach;
-?>
+$players = Player::fetchAll($nom);
 
-</section>
-
-<aside class="table numéroté">
-  <img src="" alt="plan de table numéroté">
-</aside>
-
-<?php
-require 'View/layout/bottom.php';
-?>
+require 'view/table.php';
