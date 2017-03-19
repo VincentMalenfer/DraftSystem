@@ -4,6 +4,8 @@ require 'View/layout/top.php';
 use Model\Player;
 ?>
 
+<h2>Plan de table</h2>
+
 <section>
   <p>Le plan de table généré est le suivant : </p>
 
