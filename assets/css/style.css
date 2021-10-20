@@ -1,4 +1,4 @@
-/*Les Images*/
+/*Les images*/
 
 .image {
   text-align: center;
@@ -7,7 +7,6 @@
 
 img {
   margin: 0 auto;
-  width: 50%;
 }
 
 .plan img {
@@ -17,7 +16,7 @@ img {
   height: 20%;
 }
 
-/*Les Boutons*/
+/*Les boutons*/
 
 .boutons {
   margin-top: 3em;
@@ -32,7 +31,7 @@ img {
   margin-top: 1em;
 }
 
-/*Le Footer*/
+/*Le footer*/
 
 html {
   height: 100%;
@@ -60,11 +59,15 @@ footer {
   box-sizing: border-box;
 }
 
-/*Les Articles*/
+/*Les articles*/
 
 article {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+h2 {
+  margin-top: 60px;
 }
 
 /*Les éléments JS*/
@@ -90,6 +93,6 @@ article {
 }
 
 .cRetour:hover {
-    background-color: #E577B5;
+  background-color: #E577B5;
   transition:all ease-in 0.2s;
 }

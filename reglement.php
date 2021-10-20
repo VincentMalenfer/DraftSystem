@@ -3,9 +3,8 @@
 require 'View/layout/top.php';
 ?>
 
-<h2>Réglement</h2>
-
 <article>
+  <h2>Réglement</h2>
   <p>
     Au début du Draft, chaque joueur ouvre un booster et choisit une seule carte (Ne montrez pas ce que vous choisissez aux autres joueurs !) Tout le monde passe ensuite le reste de son booster au joueur se trouvant sur sa gauche ; chaque joueur choisit alors une carte du booster qu'il vient de recevoir avant de le faire passer à nouveau. L'opération continue jusqu'à ce que toutes les cartes de ces boosters aient été choisies. Ensuite, chaque joueur ouvre un nouveau booster, mais cette fois, vous devez passer les cartes au joueur situé à votre droite. Une fois que toutes ces cartes ont été choisies, vous faites la même chose avec le troisième booster, en passant à nouveau les cartes au joueur situé à gauche.
   </p>
