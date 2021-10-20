@@ -8,7 +8,7 @@ use Model\Player;
 $nom = (isset($_GET['nom'])) ? $_GET['nom'] : null;
 
 //delete all players for a new draft
-Player::DeleteAll();
+Player::deleteAll();
 //Next one is now useless
 $players = Player::fetchAll($nom);
 

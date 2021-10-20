@@ -206,7 +206,7 @@ EOS;
 		$cnx->exec('DELETE FROM player WHERE id=' . $this->id);
 	}
 
-	public function DeleteAll()
+	public static function deleteAll()
 	{
 		$cnx = Cnx::getInstance();
 
