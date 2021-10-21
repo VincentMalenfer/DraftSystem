@@ -1,10 +1,10 @@
 <?php
 // model/player.php
-namespace Model;
+namespace model;
 
-use app\Cnx;
+use app\cnx;
 
-class Player
+class player
 {
 	/**
 	 *

@@ -3,22 +3,22 @@
 session_start();
 require_once 'app/autoload.php';
 
-use model\Player;
+use model\player;
 
-$player = new Player();
+$player = new player();
 $errors = [];
 
 if (!empty($_POST)) {
 
-	if (!Player::ValidatePrenom($_POST['prenom'], $msg)) {
+	if (!player::ValidatePrenom($_POST['prenom'], $msg)) {
 		$errors['prenom'] = $msg;
 	}
 
-	if (!Player::ValidateNom($_POST['nom'], $msg)) {
+	if (!player::ValidateNom($_POST['nom'], $msg)) {
 		$errors['nom'] = $msg;
 	}
 
-	if (!Player::ValidateDci($_POST['dci'], $msg)) {
+	if (!player::ValidateDci($_POST['dci'], $msg)) {
 		$errors['dci'] = $msg;
 	}
 
@@ -40,6 +40,6 @@ if (!empty($_POST)) {
 
 	// Traitement de retour de formulaire
 } elseif (isset($_GET['id'])) {
-	$player = Player::find($_GET['id']);
+	$player = player::find($_GET['id']);
 }
 require 'view/player-edit.php';

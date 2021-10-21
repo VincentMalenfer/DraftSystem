@@ -10,9 +10,9 @@
 session_start();
 require_once 'app/autoload.php';
 
-use model\Player;
+use model\player;
 
-$player = Player::find($_GET['id']);
+$player = player::find($_GET['id']);
 $player->delete();
 $_SESSION['msg'] = "Le joueur a bien été supprimé";
 header('Location: player.php');

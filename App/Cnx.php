@@ -1,15 +1,15 @@
 <?php
 // app/cnx.php
-namespace App;
+namespace app;
 
 use PDO;
 
-class Cnx
+class cnx
 {
 	const HOST = 'localhost';
-	const USER = 'root';
-	const PASSWORD = '';
-	const DB_NAME = 'draft';
+	const USER = 'vincentm_tata';
+	const PASSWORD = 'wvoxGyyjo4Dkz2psow';
+	const DB_NAME = 'vincentm_draft';
 
 	/**
 	 *

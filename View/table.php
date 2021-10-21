@@ -1,6 +1,6 @@
 <?php
 //view/table.php
-require 'View/layout/top.php';
+require 'view/layout/top.php';
 ?>
 
 <h2>Plan de table</h2>
