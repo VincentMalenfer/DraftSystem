@@ -1,12 +1,12 @@
 <?php
 // player.php
 session_start();
-require_once 'App/autoload.php';
+require_once 'app/autoload.php';
 
-use Model\Player;
+use model\Player;
 
 $nom = (isset($_GET['nom'])) ? $_GET['nom'] : null;
 
 $players = Player::fetchAll($nom);
 
-require 'View/player.php';
+require 'view/player.php';

@@ -1,8 +1,8 @@
 <?php
-// Model/Player.php
+// model/player.php
 namespace Model;
 
-use App\Cnx;
+use app\Cnx;
 
 class Player
 {

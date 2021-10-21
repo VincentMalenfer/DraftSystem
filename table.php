@@ -1,9 +1,9 @@
 <?php
 // table.php
 session_start();
-require_once 'App/autoload.php';
+require_once 'app/autoload.php';
 
-use Model\Player;
+use model\Player;
 
 $nom = (isset($_GET['nom'])) ? $_GET['nom'] : null;
 

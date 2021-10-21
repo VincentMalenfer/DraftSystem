@@ -1,9 +1,9 @@
 <?php
 // player-edit.php
 session_start();
-require_once 'App/autoload.php';
+require_once 'app/autoload.php';
 
-use Model\Player;
+use model\Player;
 
 $player = new Player();
 $errors = [];

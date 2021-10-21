@@ -1,5 +1,5 @@
 <?php
-// App/Cnx.php
+// app/cnx.php
 namespace App;
 
 use PDO;

@@ -15,7 +15,7 @@
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<!-- CSS File -->
-	<link rel="stylesheet" href="Assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">

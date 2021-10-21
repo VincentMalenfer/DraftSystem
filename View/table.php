@@ -1,7 +1,6 @@
 <?php
-//View/table.php
+//view/table.php
 require 'View/layout/top.php';
-use Model\Player;
 ?>
 
 <h2>Plan de table</h2>
@@ -26,5 +25,5 @@ use Model\Player;
 </aside>
 
 <?php
-require 'View/layout/bottom.php';
+require 'view/layout/bottom.php';
 ?>

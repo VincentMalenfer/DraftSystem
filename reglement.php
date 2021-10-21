@@ -1,6 +1,6 @@
 <?php
 // reglement.php
-require 'View/layout/top.php';
+require 'view/layout/top.php';
 ?>
 
 <article>
@@ -38,5 +38,5 @@ require 'View/layout/top.php';
 
 
 <?php
-require 'View/layout/bottom.php';
+require 'view/layout/bottom.php';
 ?>

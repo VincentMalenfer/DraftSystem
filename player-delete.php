@@ -8,9 +8,9 @@
  */
 
 session_start();
-require_once 'App/autoload.php';
+require_once 'app/autoload.php';
 
-use Model\Player;
+use model\Player;
 
 $player = Player::find($_GET['id']);
 $player->delete();
